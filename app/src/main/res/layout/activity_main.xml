@@ -10,8 +10,20 @@
     tools:context="com.example.adel.megustav.MainActivity"
     android:background="#6abfbb">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="חובקי עולם להשבוע"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/abc_text_size_title_material_toolbar"
+        android:textColor="#ffffff" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/textView"></TableLayout>
 </RelativeLayout>
